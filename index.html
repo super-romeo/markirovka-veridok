@@ -8,6 +8,10 @@
 <meta name="description" content="Ведение маркировки в «Честном знаке» без своего специалиста: заказ кодов, ввод в оборот, УПД с кодами через ЭДО, вывод из оборота.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Маркировка под ключ</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Маркировка под ключ</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Работа в «Честном знаке» под ключ — каждый месяц, без своего специалиста по маркировке</h1>
-    <p class="sub">Для производителей, импортёров и продавцов маркетплейсов: заказ кодов маркировки, нанесение и ввод в оборот, отгрузка с УПД и кодами через ЭДО, вывод из оборота — ведём операции каждый месяц, вы видите, что сделано, и получаете отчёт.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Узнать стоимость и тарифы</a>
-    <p class="cta-note">Сервис в подготовке · Оплата на этой странице не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для производителей, импортёров и продавцов</p>
+      <h1 class="rise" style="--i:1" data-len="long">Работа в «Честном знаке» под ключ&nbsp;<span class="soft">— каждый месяц, без своего специалиста по маркировке</span></h1>
+      <p class="rise" style="--i:2">Для производителей, импортёров и продавцов маркетплейсов: заказ кодов маркировки, нанесение и ввод в оборот, отгрузка с УПД и кодами через ЭДО, вывод из оборота — ведём операции каждый месяц, вы видите, что сделано, и получаете отчёт.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Узнать стоимость и тарифы</a>
+      <p class="meta rise" style="--i:4">Сервис в подготовке · Оплата на этой странице не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" font-weight="600" fill="#0a1524">Честном знаке</text><line x1="120" y1="210" x2="1080" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" fill="#0a1524">Заказ кодов</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#12397a" /><text x="200" y="382" font-size="32" fill="#0a1524">Отчёт за месяц</text><rect x="130" y="450" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="500" width="220" height="22" rx="8" fill="#b9c3d2" /><rect x="130" y="550" width="260" height="22" rx="8" fill="#dde2ea" /><rect x="700" y="260" width="370" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">ввод в оборот</text><rect x="750" y="460" width="50" height="160" rx="8" fill="#12397a" /><rect x="830" y="540" width="50" height="80" rx="8" fill="#ffffff" /><rect x="910" y="430" width="50" height="190" rx="8" fill="#b9c3d2" /><rect x="990" y="510" width="50" height="110" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Продавцов маркетплейсов</dd></div>
+      <div><dt>Коды</dt><dd>Заказ кодов маркировки</dd></div>
+      <div><dt>Месяц</dt><dd>Каждый месяц</dd></div>
+      <div><dt>Пока</dt><dd>Сервис в подготовке</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Заказ кодов</b><span>Коды маркировки заказаны на нужное количество по каждой карточке товара.</span><br><a class="btn" href="price.html" data-ev="feature_kody">Мне это нужно</a></div>
-      <div class="card"><b>Ввод в оборот</b><span>Ввод в оборот после нанесения или перемаркировки, с проверкой статусов.</span><br><a class="btn" href="price.html" data-ev="feature_vvod">Мне это нужно</a></div>
-      <div class="card"><b>УПД с кодами через ЭДО</b><span>Исходящие и входящие УПД с кодами маркировки подписаны и приняты в срок.</span><br><a class="btn" href="price.html" data-ev="feature_upd">Мне это нужно</a></div>
-      <div class="card"><b>Отчёт за месяц</b><span>Что сделано, какие коды в каком статусе и где есть расхождения.</span><br><a class="btn" href="price.html" data-ev="feature_otchet">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Заказ кодов</text><text x="120" y="195" font-size="30" fill="#566174">каждой карточке</text><rect x="140" y="250" width="44" height="44" rx="8" fill="#dfe8f7" /><polyline points="150,272 158,284 174,260" fill="none" stroke="#12397a" stroke-width="4" stroke-linecap="round" /><rect x="210" y="262" width="300" height="20" rx="8" fill="#dde2ea" /><rect x="140" y="330" width="44" height="44" rx="8" fill="#dfe8f7" /><polyline points="150,352 158,364 174,340" fill="none" stroke="#12397a" stroke-width="4" stroke-linecap="round" /><rect x="210" y="342" width="240" height="20" rx="8" fill="#b9c3d2" /><rect x="140" y="410" width="44" height="44" rx="8" fill="#eef2f7" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="422" width="270" height="20" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Заказ кодов</h3><p>Коды маркировки заказаны на нужное количество по каждой карточке товара.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kody">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="120" font-size="32" font-weight="600" fill="#0a1524">Ввод в оборот</text><text x="80" y="170" font-size="30" fill="#566174">проверкой статусов</text><rect x="70" y="220" width="250" height="280" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="100" y="260" width="180" height="18" rx="8" fill="#dde2ea" /><rect x="100" y="300" width="140" height="18" rx="8" fill="#b9c3d2" /><rect x="100" y="340" width="160" height="18" rx="8" fill="#dde2ea" /><path d="M340 360 H420" fill="none" stroke="#12397a" stroke-width="6" /><polygon points="420,346 456,360 420,374" fill="#12397a" /><rect x="480" y="220" width="250" height="280" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="510" y="260" width="180" height="18" rx="8" fill="#dfe8f7" /><rect x="510" y="300" width="150" height="18" rx="8" fill="#dde2ea" /><rect x="510" y="340" width="170" height="18" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Ввод в оборот</h3><p>Ввод в оборот после нанесения или перемаркировки, с проверкой статусов.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_vvod">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="110" font-size="32" font-weight="600" fill="#0a1524">УПД с кодами через ЭДО</text><text x="80" y="160" font-size="30" fill="#566174">в срок</text><rect x="80" y="200" width="250" height="300" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="110" y="240" width="180" height="18" rx="8" fill="#dde2ea" /><rect x="110" y="280" width="140" height="18" rx="8" fill="#b9c3d2" /><rect x="110" y="320" width="160" height="18" rx="8" fill="#12397a" /><rect x="470" y="200" width="250" height="300" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="500" y="240" width="180" height="18" rx="8" fill="#dde2ea" /><rect x="500" y="280" width="150" height="18" rx="8" fill="#dfe8f7" /><rect x="500" y="320" width="120" height="18" rx="8" fill="#b9c3d2" /><line x1="330" y1="249" x2="470" y2="249" fill="none" stroke="#dde2ea" stroke-width="3" /><line x1="330" y1="289" x2="470" y2="289" fill="none" stroke="#dde2ea" stroke-width="3" /><line x1="330" y1="329" x2="470" y2="329" fill="none" stroke="#12397a" stroke-width="3" /></svg></div>
+        <h3>УПД с кодами через ЭДО</h3><p>Исходящие и входящие УПД с кодами маркировки подписаны и приняты в срок.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_upd">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Отчёт за месяц</text><rect x="140" y="190" width="340" height="280" rx="12" fill="#eef2f7" /><rect x="170" y="230" width="260" height="18" rx="8" fill="#dde2ea" /><rect x="170" y="270" width="200" height="18" rx="8" fill="#b9c3d2" /><rect x="170" y="310" width="240" height="18" rx="8" fill="#dde2ea" /><rect x="170" y="350" width="160" height="18" rx="8" fill="#b9c3d2" /><circle cx="560" cy="330" r="64" fill="#dfe8f7" /><polyline points="524,330 548,358 602,290" fill="none" stroke="#12397a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /><text x="170" y="430" font-size="30" fill="#566174">какие коды</text></svg></div>
+        <h3>Отчёт за месяц</h3><p>Что сделано, какие коды в каком статусе и где есть расхождения.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_otchet">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Продавец одежды на Wildberries, 140 карточек. Октябрь: заказано 3 200 кодов, введено в оборот после нанесения, отгрузки на склад маркетплейса прошли с УПД через ЭДО. Найдено 18 кодов с расхождением статуса — исправлено до отгрузки.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выберите тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Продавец одежды на Wildberries, 140 карточек. Октябрь: заказано 3 200 кодов, введено в оборот после нанесения, отгрузки на склад маркетплейса прошли с УПД через ЭДО. Найдено 18 кодов с расхождением статуса — исправлено до отгрузки.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выберите тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">140 карточек</text><text x="600" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">через ЭДО</text><text x="960" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">18 кодов</text><rect x="120" y="310" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" font-weight="600" fill="#0a1524">введено в оборот</text><text x="170" y="480" font-size="32" fill="#566174">расхождением статуса</text><rect x="170" y="560" width="180" height="24" rx="8" fill="#dde2ea" /><rect x="370" y="560" width="140" height="24" rx="8" fill="#b9c3d2" /><rect x="530" y="560" width="220" height="24" rx="8" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Маркировка товаров в «Честном знаке» стала обязательной для многих групп товаров, и в системе зарегистрировано больше миллиона компаний, из них больше 334 тысяч — в лёгкой промышленности. Каждая из них должна заказывать коды, вводить товары в оборот, передавать коды покупателю через электронные УПД и выводить товар из оборота при продаже, списании или экспорте. Ошибка в любом шаге может остановить отгрузку или привести к штрафу.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Маркировка товаров в «Честном знаке» стала обязательной для многих групп товаров, и в системе зарегистрировано больше миллиона компаний, из них больше 334 тысяч — в лёгкой промышленности. Каждая из них должна заказывать коды, вводить товары в оборот, передавать коды покупателю через электронные УПД и выводить товар из оборота при продаже, списании или экспорте. Ошибка в любом шаге может остановить отгрузку или привести к штрафу.</p>
     <p>Личный кабинет системы и простое ЭДО ничего не стоят, но операции в них делает человек. Крупные компании держат специалиста по маркировке; малым производителям, импортёрам и продавцам маркетплейсов это невыгодно. Бюро берут за полное сопровождение ежемесячную плату, программы для маркировки стоят ещё дороже. Маркировка под ключ берёт на себя ежемесячные операции по фиксированной цене.</p>
     <p>Работа начинается с подключения: проверяем регистрацию в «Честном знаке», ЭДО и карточки товаров в национальном каталоге. Если карточек нет или они заполнены с ошибками, исправляем их до первого заказа кодов.</p>
     <p>Каждый месяц вы сообщаете, сколько и каких товаров нужно промаркировать. Коды заказываются на нужное количество, вы получаете файлы для печати этикеток. После нанесения товар вводится в оборот, и вы видите, что все коды получили нужный статус.</p>
@@ -104,31 +138,34 @@
     <p>Как выглядит обычный месяц. В начале месяца вы присылаете план: какие товары и сколько будет промаркировано. Коды заказываются, файлы для этикеток приходят в тот же день. После нанесения вы сообщаете, что товар готов, и он вводится в оборот. Отгрузки на маркетплейс сопровождаются УПД, и вы видите статус каждой поставки.</p>
     <p>Если маркетплейс или покупатель возвращает товар, коды возвращаются в оборот, а повреждённый товар выводится из оборота. Если меняются правила маркировки для вашей товарной группы, вы узнаёте об этом заранее, а сопровождение перестраивается к новым требованиям.</p>
     <p>Мы не являемся оператором системы маркировки и не действуем от его имени. Ответственность за товар и сведения о нём несёт участник оборота; мы выполняем операции по вашему поручению.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Кому подходит сервис?</h3>
-    <p>Производителям, импортёрам и продавцам маркетплейсов маркированных товаров без своего специалиста по маркировке.</p>
-    <h3>Нужен ли доступ к «Честному знаку» и ЭДО?</h3>
-    <p>Да, операции выполняются в вашем личном кабинете по доверенности или с вашей электронной подписью.</p>
-    <h3>Что входит в ежемесячную работу?</h3>
-    <p>Заказ кодов, ввод в оборот, УПД с кодами через ЭДО, вывод из оборота и отчёт за месяц.</p>
-    <h3>Можно ли начать, если карточки ещё не созданы?</h3>
-    <p>Да, с первого месяца проверяем и заполняем карточки в национальном каталоге.</p>
-    <h3>Можно ли пользоваться уже сейчас?</h3>
-    <p>Пока нет. Сервис в подготовке, мы проверяем, нужен ли он предпринимателям.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Кому подходит сервис?</h3><p>Производителям, импортёрам и продавцам маркетплейсов маркированных товаров без своего специалиста по маркировке.</p></div>
+      <div class="split flip"><h3>Нужен ли доступ к «Честному знаку» и ЭДО?</h3><p>Да, операции выполняются в вашем личном кабинете по доверенности или с вашей электронной подписью.</p></div>
+      <div class="split flip"><h3>Что входит в ежемесячную работу?</h3><p>Заказ кодов, ввод в оборот, УПД с кодами через ЭДО, вывод из оборота и отчёт за месяц.</p></div>
+      <div class="split flip"><h3>Можно ли начать, если карточки ещё не созданы?</h3><p>Да, с первого месяца проверяем и заполняем карточки в национальном каталоге.</p></div>
+      <div class="split flip"><h3>Можно ли пользоваться уже сейчас?</h3><p>Пока нет. Сервис в подготовке, мы проверяем, нужен ли он предпринимателям.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Опишите ваш товар</h2>
-    <p><label>Товарная группа<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>Одежда и текстиль</option><option>Обувь</option><option>Косметика и бытовая химия</option><option>Другое</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Опишите ваш товар</h2>
+    </div>
+    <div class="tile stack">
+      <label>Товарная группа<select data-ev-focus="form_start"><option value="">— выберите —</option><option>Одежда и текстиль</option><option>Обувь</option><option>Косметика и бытовая химия</option><option>Другое</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Маркировка под ключ</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Мы не оператор системы маркировки и не действуем от его имени. Ответственность за товар и сведения о нём несёт участник оборота.</p>
+  <p>Мы не оператор системы маркировки и не действуем от его имени. Ответственность за товар и сведения о нём несёт участник оборота.</p>
 </div></footer>
 
 </body>
